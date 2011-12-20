@@ -2,6 +2,16 @@ MiniPOVGenerator
 
 This node.js program takes in a string and spits out the text representation of the binary code needed to program the miniPOV project as described on http://www.ladyada.net/make/minipov3/.
 
+There are good software build instructions here: http://www.ladyada.net/make/minipov3/software.html
+
+Other browser based generators can be found at these locations:
+
+http://www.repulsor.net/minipov/
+http://zachrattner.com/pov/
+http://experiments.coderonfire.com/minipov_generator/
+
+The font used in minipov.js is adapted from a project found here: http://tinkersoc.org/wiki/projects:tinkerpov
+
 Usage:
 
 node minipov.js Hi\ there\!
