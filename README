@@ -19,3 +19,5 @@ node minipov.js Hi\ there\!
 Note: As of right now, the only characters supported are: 0 through 9, A through Z, a through z, ! and space
 
 Also Note: The code generated from here is based on the largeimage.c example in the minipovfirmware.zip examples
+
+Third Note: It's written for node.js, but could easily be made to work in the browser or anywhere else javascript can be used. The only thing that is really node.js specific is processing the command line arguments.
