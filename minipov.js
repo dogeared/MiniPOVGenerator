@@ -449,7 +449,7 @@ var font = {
 }
 
 var miniPovString = process.argv[2];
-var ret = "const static int image[] = {\n";
+var ret = "const uint8_t large_image[] PROGMEM = {\n";
 for (i = 0; i<miniPovString.length; i++) {
   ret += font[miniPovString.substring(i,i+1)].join("\n") + "\n";
 }
